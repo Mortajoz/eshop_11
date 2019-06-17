@@ -46,6 +46,7 @@
 
 .header_info {
     padding: 20px;
+    border-bottom: 1px solid #303e4f;
 }
 
 .searchbox {
@@ -64,7 +65,7 @@
 .searchinput {
     border: 0;
     padding: 8px 15px;
-    width: 30%;
+    width: 50%;
 }
 
 .btnsearch {
@@ -72,6 +73,10 @@
     background-color: #F4A137;
     color: #fff !important;
     border-radius: 20px 0 0 20px;
+}
+
+.btnsearch:hover {
+    background-color: #555555;
 }
 
 .contactus {
@@ -97,5 +102,68 @@
 .carticon i {
     background-color: #F4A137;
     padding: 7px;
-    margin-top: 7px;
+    margin-top: 3px;
+}
+
+.topnav {
+    position: relative;
+}
+
+.topnavlink {
+    display: block;
+    padding: 10px 12px;
+    font-size: 0.9em;
+    position: relative;
+}
+
+.topnavlink:hover {
+    color: #fff;
+}
+
+.topnavitem:hover>.submenu {
+    display: block;
+}
+
+.hotcategory::before {
+    content: ' ';
+    position: absolute;
+    background-image: url(../images/icons/hot-icon.png);
+    width: 35px;
+    height: 22px;
+    top: -26%;
+    right: 30%;
+}
+
+.submenu {
+    display: none;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.submenucontainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.submenuimage {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.submenulist {
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.submenuitem {
+    width: 25%;
 }
