@@ -308,3 +308,54 @@
     border: 1px solid #bcbdc7;
     margin: 5px;
 }
+
+.banner {
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.newproductitems {
+    width: 25%;
+}
+
+.collectionitem {
+    width: 16.5%;
+    flex-grow: 1;
+}
+
+.collectiondetailitem {
+    background-color: #eee;
+    border: 1px solid transparent;
+}
+
+.collectiondetailitem:hover {
+    border-color: #F4A137;
+    background-color: #fff;
+}
+
+.collectiondetailitem {
+    margin: 5px;
+}
+
+.collectionlink {
+    display: block;
+    border-bottom: 3px solid #F4A137;
+    position: relative;
+}
+
+.collectiontitle {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+}
