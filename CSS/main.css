@@ -382,3 +382,30 @@
 .hotsaleinfo {
     flex-grow: 1;
 }
+
+.hotcategoriesitem {
+    width: 25%;
+}
+
+.hotcategorylist {
+    list-style: square;
+    margin-right: 15px;
+}
+
+.hotcategorydetails {
+    margin: 10px;
+}
+
+.hotcategoryimage {
+    position: relative;
+}
+
+.hotcategorydetails .btn {
+    position: absolute;
+    bottom: 27px;
+    right: 24px;
+}
+
+.hotcategorydetails h4 {
+    margin: 0;
+}
