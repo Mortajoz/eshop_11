@@ -357,5 +357,28 @@
     font-weight: bold;
 }
 
+.hotsaleitemcontainer {
+    flex-wrap: wrap;
+}
 
+.hotsaleitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.hotsaledetails {
+    margin: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.hotsaleimage {
+    width: 150px;
+}
+
+.hotsaleimage img {
+    width: 100%;
+}
+
+.hotsaleinfo {
+    flex-grow: 1;
 }
